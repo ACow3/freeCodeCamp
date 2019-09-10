@@ -1,0 +1,32 @@
+body{
+    background-color:	#AAD7D2      
+}
+
+#mastercontainer{
+  text-align: center;
+}
+
+#container{
+  text-align: center;
+  background-color: white;
+  padding-top: 15px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+
+
+#maincontent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.left{
+  text-align: right;
+}
+
+.right{
+  text-align: left;
+}
+

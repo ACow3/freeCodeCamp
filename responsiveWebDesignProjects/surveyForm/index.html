@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="html/style.css">
+</head>
+<body>
+    <div id="mastercontainer">
+        <div id="header">
+          <h1>Survey Form</h1>
+        </div>
+    <div id="container">
+      <div id="headline">
+        <h3>Let us know how we can improve freeCodeCamp</h3>
+      </div>
+      <div id="maincontent" class="left">
+          <div class="row">
+            <div class="col">
+              <p>* Name:</p>
+              <p>* Email:</p>
+              <p>* Age:</p>
+              <p>Which option best describes your current role?</p>
+              <p>* How likely is it that you would recommend freeCodeCamp to a friend?</p>
+              <p>What do you like most in FCC:</p>
+              <p>Things that should be improved in the future</p>
+              <p>(Check all that apply)</p>
+              <p>Any Comments or Suggestions?</p>
+            </div>
+  
+            <div class="col">
+            Leftside bottom
+            </div>
+          </div>
+  
+      <div id="maincontent" class="right">
+          <div class="row">
+            <div class="col">
+          <form action="/process">
+          <p><input type="text" placeholder="Enter your name" class="form-control" id="name"/></p>
+          <p><input type="text" placeholder="Enter your email" class="form-control" id="email"/></p>
+          <p><input type="text" placeholder="Age" class="form-control" id="age"/></p>
+  
+          <div class="custom-select">
+          <select>
+            <option value="Select an Option">Select an Option</option>
+            <option value="Student">Student</option>
+            <option value="Student">Full-time Job</option>
+            <option value="Student">Full-time Learner</option>
+            <option value="Student">Prefer Not to Say</option>
+            <option value="Student">Other</option>
+          </select>
+          </div></p>
+  
+          <label><input type="radio" name="recommendation" class="recommendation"> Definitely</label>
+          <label><input type="radio" name="recommendation" class="recommendation"> Maybe</label>
+          <label><input type="radio" name="recommendation" class="recommendation"> Not sure</label>
+  
+           </div>
+  
+          <div class="custom-select">
+            <select>
+            <option value="Select an Option">Select an Option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
+            </select>
+          </div>
+  
+            <label><input type="checkbox" name="future" class="future">Front-end Projects</label>
+            <label><input type="checkbox" name="future" class="future">Back-end Projects</label>
+            <label><input type="checkbox" name="future" class="future">Data Visualization</label>
+            <label><input type="checkbox" name="future" class="future">Challenges</label>
+            <label><input type="checkbox" name="future" class="future">Open Source Community</label>
+            <label><input type="checkbox" name="future" class="future">Gitter help rooms</label>
+            <label><input type="checkbox" name="future" class="future">Videos</label>
+            <label><input type="checkbox" name="future" class="future">City Meetups</label>
+            <label><input type="checkbox" name="future" class="future">Wiki</label>
+            <label><input type="checkbox" name="future" class="future">Forum</label>
+            <label><input type="checkbox" name="future" class="future">Additional Courses</label>
+  
+            <textarea placeholder="Enter your comment here.."></textarea>
+            <div class="col">
+            Rightside bottom
+            </div>
+          </div>
+  
+        </form>
+      </div>
+          <div id="footer"><input type="button" id="btn btn-submit" value="Submit"/></div>
+    </div>
+  </div>
+</body>
+</html>
